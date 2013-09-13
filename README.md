@@ -1,4 +1,4 @@
-jquery-valign
+jquery valign
 =============
 
 A jQuery plugin which vertically center aligns elements within their container.
