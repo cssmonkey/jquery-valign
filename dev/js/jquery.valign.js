@@ -21,8 +21,9 @@
                 containerHeight = container.height(),
                 topMargin = (containerHeight - elemHeight) / 2,
                 spacingTop = settings.style;
-
-            elem.css( spacingTop, Math.floor(topMargin) ).addClass('valign');
+                
+	    if (topMargin + elemHeight < containerHeight)
+            	elem.css( spacingTop, Math.floor(topMargin) ).addClass('valign');
         });
 
     };
